@@ -6,6 +6,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { toggleMenu } from "../utils/appSlice";
 import { YOUTUBE_SEARCH_API } from "../utils/constant";
 import { cacheResults } from "../utils/searchSlice";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const [searchQuery, setSearchQuery] = useState("");
@@ -55,11 +56,13 @@ const Header = () => {
           className="text-2xl cursor-pointer"
           onClick={() => toggleMenuHandler()}
         />
+        <Link to="/">
         <img
           src="https://cdn.mos.cms.futurecdn.net/8gzcr6RpGStvZFA2qRt4v6.jpg"
           alt="yt-logo"
           className="h-12 cursor-pointer text-2xl"
         />
+        </Link>
       </div>
 
       {/* Middle Section - Search Bar */}
