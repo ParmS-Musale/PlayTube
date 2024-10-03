@@ -1,6 +1,6 @@
 # PlayTube 📺
 
-This is a YouTube Clone project built using **React**, **Redux**, **React-Router**, and **Tailwind CSS**. It features a header with a responsive layout, a search bar with live search suggestions powered by YouTube's API, and a user menu with toggle functionality. The search results are cached to reduce API calls for repeated queries.
+This is a PlayTube project built using **React**, **Redux**, **React-Router**, and **Tailwind CSS**. It features a header with a responsive layout, a search bar with live search suggestions powered by YouTube's API, and a user menu with toggle functionality. The search results are cached to reduce API calls for repeated queries.
 
 ## Table of Contents
 
